@@ -10,6 +10,5 @@ sleep 5
 sudo mkfs -t ext4 /dev/xvdf
 sleep 5
 sudo mount /dev/xvdf /mnt/$dirname
-sleep 5
-lsblk
-echo "/dev/xvdf /mnt/$dirname ext4 defaults 0 1" | sudo tee -a /etc/fstab
+
+
